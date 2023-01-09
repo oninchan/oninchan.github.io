@@ -9,22 +9,8 @@ body{
     color: #fff;
 
 }
-html{
-    scroll-behavior: smooth;
-}
-#header {
-    width: 100%;
-    height: 150vh;
-    background-image: url(images/bg1.png);
-    background-size: cover;
-    background-position: center;
-}
 .container{
     padding: 10px 10%;
-}
-img.logo {
-    height: 120px;
-    margin-left: -67px;
 }
 nav{
     display: flex;
@@ -58,105 +44,6 @@ nav ul li a::after{
 }
 nav ul li a:hover::after{
     width: 100%;
-}
-.header-text{
-    margin-top: 20%;
-    font-size: 30px;
-}
-.header-text h1 {
-    font-size: 83px;
-    margin-top: 20px;
-    margin-left: 450px;
-}
-.header-text h1 span{
-    color: #ff004f;
-}
-.header-text p span {
-    color: #ff004f;
-    font-size: 40px;
-    font-weight: 600;
-    margin-left: -1px;
-    margin-top: 7px;
-    text-decoration: line-through;
-}
-.header-text p {
-    font-size: 40px;
-    font-weight: 600;
-    margin-left: 600px;
-    text-decoration: line-through;
-}
-
-/*about section*/
-#about{
-    padding: 80px 0;
-    color: #ababab;
-}
-img {
-    height: 480px;
-}
-.row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.about-col-1{
-    flex-basis: 35%;
-}
-.about-col-1 img{
-    width: 92%;
-    border-radius: 15px;
-}
-.about-col-2{
-    flex-basis: 60%;
-}
-.sub-title{
-    font-size: 60px;
-    font-weight: 600;
-    color: #fff;
-}
-p {
-    font-size: 19px;
-    margin-top: 61px;
-}
-/*Myprojects*/
-#projects {
-    padding: 80px 0;
-}
-.projects-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-.projects-list div{
-    background: #262626;
-    padding: 40px;
-    font-size: 13px;
-    font-weight: 300;
-    border-radius: 10px;
-    transition: background 0.5s, transform 0.5s;
-}
-.projects-list div i {
-    font-size: 50px;
-    margin-bottom: 30px;
-    color: #ff004f;
-}
-.projects-list div h4{
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-.projects-list div a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
-.projects-list div:hover{
-    background: #ff004f;
-    transform: translateY(-10px);
 }
 /*-----skills------*/
 #skills{
@@ -309,6 +196,6 @@ form input, form textarea{
 .row{
     padding: 80px 0;
 }
-
-/* navigation about*/
-
+h5.sub-title {
+    font-size: 48px;
+}
